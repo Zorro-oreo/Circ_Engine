@@ -97,7 +97,7 @@ public:
                 if (num == 1) {
                     NOT_gate(values[0]);
                 } else {
-                    cout << "NOT gate requires exactly one input." << endl;
+                    cout << "NOT gate requires only one input." << endl;
                 }
                 break;
             case 4:
@@ -113,7 +113,7 @@ public:
                 XNOR_gate(num, values);
                 break;
             default:
-                cout << "Invalid choice." << endl;
+                cout << "Invalid" << endl;
         }
     }
 };
